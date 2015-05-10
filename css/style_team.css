@@ -1,0 +1,49 @@
+#profile{
+	float:left;
+	width:26.666666666667%;
+	padding:5% 3.333333333% 0 3.333333333%;
+}
+
+#profile h3{
+	float:left;
+}
+
+
+#linkedin{
+	padding: 12px 1px 0 1px;
+	float:right;
+}
+
+#github{
+	padding: 12px 1px 0 1px;
+	float:right;
+}
+
+#behance{
+	padding: 12px 1px 0 1px;
+	float:right;
+}
+#profile p{
+	clear:both;
+}
+
+#profile-wrapper{
+	
+}
+
+#profile img{
+	display:block;
+	margin: 0 auto;
+}
+
+#title{
+	width:100%;
+	height:15%;
+	background-image:	
+}
+
+
+p{
+	font-family:Arial, Times New Roman, Helvetica;	
+}
+

@@ -1,0 +1,71 @@
+/* CSS Document */
+
+#banner{
+	display:block;
+	width:960px;
+	height:720px;
+	margin:auto;
+	
+	
+}
+
+#container{
+	display:block;
+	text-align:center;
+	float:left;
+	width:960px;
+	height:720px;
+	overflow:auto;	
+}
+
+#prev{
+	background-image: url(../images/icons/chevron-left.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:block;
+	float:left;
+	height:720px;
+	width:100px;
+	z-index: 99;
+	position: relative;
+}
+
+
+#slider{
+	display:block;
+	float:left;
+	height:720px;
+	width:960px;
+	overflow:hidden;
+	position:absolute;
+	
+}
+
+
+#next{
+	background-image: url(../images/icons/chevron-right.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:block;
+	float:right;
+	height:720px;
+	width:100px;
+	z-index: 99;
+	position: relative;
+}
+
+
+#box1{
+	float:left;
+	width:33%;
+}
+
+#box2{
+	float:left;
+	width:33%;
+}
+
+#box3{
+	float:left;
+	width:33%;
+}

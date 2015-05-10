@@ -1,0 +1,105 @@
+body{
+
+}
+
+h1{
+	font-size:64pt;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:100;	
+}
+
+img{
+	border-radius:2px;	
+}
+#wrapper{
+	width:95%;
+	margin: 10px auto;
+	background-color:#ffffff;
+	
+}
+
+#top{
+	background-color:#FFCC33;
+}
+
+#topnav{
+	
+}
+
+#logo{
+	float: left;
+	padding: 10px 0 0 20px;
+}
+
+#social-media{
+	float:right;
+	padding: 0 40px;
+	
+}
+
+#social-media ul li {
+	display:inline;
+	list-style-type:none;	
+}
+
+#topnav{
+	clear:both;
+}
+
+#topnav ul li {
+	display:inline;
+	list-style-type:none;
+	margin: 0 50px 0 50px;
+	font-size:12pt;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:200;
+	
+}
+
+#topnav ul {
+	border-top:1px #000 solid;
+	padding: 5px;
+}
+
+
+#topnav a:link {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+#topnav a:visited{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+#topnav a:active{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+#topnav a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	color:#800000;
+}
+#topnav a:focus{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+#banner{
+	width:95%;
+	margin:40px 0 0 0;
+}
+
+
+
+
+
+/* Footer */
+#footer{
+	clear:both;
+	padding: 20px 0;
+	border-top: 1px #000 solid; 
+}

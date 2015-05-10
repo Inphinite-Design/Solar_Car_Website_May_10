@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<!-- CSS links -->
+<!-- TemplateBeginEditable name="head" -->
+<link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<!-- TemplateEndEditable -->
+<style type="text/css">
+#wrapper #topnav ul li a {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight:400;
+}
+</style>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>MSCP | Home</title>
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="body" -->
+	<div id="wrapper">
+    
+    	<div id="top">
+            <div id="logo">
+            	<img src="../images/logo/Logo-small.png">
+            </div>
+            <div id="social-media">
+                <ul>
+                    <li><a href="www.facebook.com"><img src="images/social-media-icons/facebook.png" width="43" height="43"/></a></li>
+                    <li><a href="www.twitter.com"><img src="images/social-media-icons/g+.png" width="43" height="43"/></a> </li>
+                    <li><a href="www.linkedin.com"><img src="images/social-media-icons/twitter.png" width="45" height="43"/></a></li>
+                </ul> 
+            </div>
+		</div>
+		<div id="topnav">
+        	<div align="left">
+        	  <ul>
+        	    <li><a href="../index.html">Home</a></li>
+        	    <li><a href="../team.html">The Team</a></li>
+        	    <li><a href="../car.html">The Car</a></li>
+        	    <li><a href="../join.html">Join</a></li>
+        	    <li><a href="../sponsor.html">Sponsor</a></li>
+      	      </ul>
+      	  </div>
+          
+          <div id="banner">
+       	  <img src="../images/Portfolio/Homepage1.jpg" width="100%" />
+          </div>
+		</div>
+        <div id="content">
+        
+        
+        </div>
+        
+        
+
+<!-- TemplateEndEditable -->
+	
+</body>
+</html>
