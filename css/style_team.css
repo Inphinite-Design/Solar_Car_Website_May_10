@@ -5,26 +5,32 @@
 }
 
 #profile h3{
-	float:left;
+	float:center;
+	padding-bottom: 0px;
 }
 
+#social {
+	float:center;
+	
+}
 
 #linkedin{
 	padding: 12px 1px 0 1px;
-	float:right;
+	float:center;
 }
 
 #github{
 	padding: 12px 1px 0 1px;
-	float:right;
+	float:center;
 }
 
 #behance{
 	padding: 12px 1px 0 1px;
-	float:right;
+	float:center;
 }
 #profile p{
-	clear:both;
+	clear: both;
+	position: static;
 }
 
 #profile-wrapper{
@@ -32,7 +38,7 @@
 }
 
 #profile img{
-	display:block;
+	display: block;
 	margin: 0 auto;
 }
 
@@ -46,4 +52,3 @@
 p{
 	font-family:Arial, Times New Roman, Helvetica;	
 }
-

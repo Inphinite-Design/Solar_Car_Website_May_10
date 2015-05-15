@@ -45,54 +45,46 @@
       	      </ul>
       	  </div>
           </div>
-          <p> note to self: Get .php web-form-mailer file to input into the action="" tag of the form (this needs to be in the same folder as the html file that contains the form)</p>
+    
           <div id="form">
-          <form method="post" action="" name="contact-form" id="the-contact-form">
-          
-          <input type="hidden" name="redirect" value="join.html">
-          <!-- other form requirements depending on the hosting plan -->
-          <ol>
-          	<li>
-            	<label for="full-name">Full Name</label>
-                <input type="text" name="full-name">
-            </li>
-            
-            <li>
-            	<label for="email">E-Mail</label>
-                <input type="text" name="email">
-            </li>
-            
-            <li>
-            	<label for="program">Program & Year</label>
-                <input type="text" name="program">
-            </li>
-            
-            <li>
-            	<label for="sub-team">What sub-team(s) are you interested in joining?</label>
-                <input type="text" name="sub-team">
-            </li>
-            
-            <li>
-            	<label for="skills">What skills can you bring to the team? </label>
-                <textarea name="skills"></textarea>
-            </li>
-            
-            <li>
-                <input class="submit" type="submit" name="submit" value="submit"></input>
-            </li>
-          </ol>
-          
-          
+          <form method="post" action="join.php" name="contact-form" id="the-contact-form">
+              <ol>
+                <li>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name">
+                </li>
+                
+                <li>
+                    <label for="email">E-Mail</label>
+                    <input type="text" name="email">
+                </li>
+                
+                <li>
+                    <label for="program">Program & Year</label>
+                    <input type="text" name="program">
+                </li>
+                
+                <li>
+                    <label for="sub-team">What sub-team(s) are you interested in joining?</label>
+                    <input type="text" name="subteam">
+                </li>
+                
+                <li>
+                    <label for="skills">What skills can you bring to the team? </label>
+                    <textarea name="skills"></textarea>
+                </li>
+                
+                <li>
+                    <input class="submit" type="submit" name="submit" value="submit"></input>
+                </li>
+              </ol>
           </form>
           
           
-       	  <p> More filler text </p>
+    
           </div>
+               
 		</div>
-        <div id="content">
-        
-        
-        </div>
         
         </div>
 
